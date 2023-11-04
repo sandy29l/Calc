@@ -54,7 +54,7 @@
             background-color: #bf59e0;
         }
 
-        button[data-operator="sqrt"] {
+        button[data-operator="."] {
             background-color: #afca6f;
         }
     </style>
@@ -85,7 +85,7 @@
             <tr>
                 <td><button onclick="appendToDisplay('0')">0</button></td>
                 <td><button data-operator="%" onclick="appendToDisplay('%')">%</button></td>
-                <td><button data-operator="sqrt" onclick="calculateSquareRoot()">√</button></td>
+                <td><button data-operator="." onclick="appendToDisplay('.')">.</button></td>
                 <td><button data-operator="/" onclick="appendToDisplay('/')" style="color: white;">/</button></td>
             </tr>
             <tr>

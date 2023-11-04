@@ -82,7 +82,7 @@ Publish the website in the given URL.
             background-color: #bf59e0;
         }
 
-        button[data-operator="sqrt"] {
+        button[data-operator="."] {
             background-color: #afca6f;
         }
     </style>
@@ -113,7 +113,7 @@ Publish the website in the given URL.
             <tr>
                 <td><button onclick="appendToDisplay('0')">0</button></td>
                 <td><button data-operator="%" onclick="appendToDisplay('%')">%</button></td>
-                <td><button data-operator="sqrt" onclick="calculateSquareRoot()">√</button></td>
+                <td><button data-operator="." onclick="appendToDisplay('.')">.</button></td>
                 <td><button data-operator="/" onclick="appendToDisplay('/')" style="color: white;">/</button></td>
             </tr>
             <tr>
@@ -147,9 +147,10 @@ Publish the website in the given URL.
     </script>
 </body>
 </html>
+
 ```
 ## OUTPUT:
 
-![Alt text](<Screenshot (48).png>)
+![Alt text](<Screenshot (55).png>)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
